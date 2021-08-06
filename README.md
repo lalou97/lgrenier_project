@@ -15,20 +15,21 @@
 
 # Project Definition 
 
-## Is machine learning able to detect whether you're consuming what you want belong what you need based on brain signature?  
+## Can we identify wether the brain is *needing* something or *wanting* something with machine learning ?  
 
 
 ### Background
-##### Overconsumption is associate with several environmental, social and indivuals problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006). It seems like motivation toward a stimulus can be driven by the fact that we need it to survive or by the fact that we want it for "pleasure". The first stimulus is pursued for its survival value and the motivation toward it increases during a deprivation state of that stimulus, for example, food or water. The second stimulus is pursued for its previously learned reward value and the motivation to obtain is not necessarily related to a deprivation state. Beyond this distinction, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, it is possible to wonder what is the similarity and the differences between those two conditions at a neural level? 
+##### Overconsumption is associate with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006). It seems like a stimulus can be pursued for its survival value and the motivation toward it increases during a deprivation state of that stimulus, for example, food or water. However, a stimulus can also be pursued for its *previously learned reward value*, for example, money, makeup,... In this case, the motivation to obtain the stimulus is not necessarily related to a deprivation state. Beyond this distinction, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, it is possible to wonder what is the similarity and the differences between those two conditions at a neural level? 
 
-##### To answer this question, we made a coordinate-based meta-analysis with the ALE algorithm in order to find the consistent activations reported in the litterature. 
+##### To answer this question, we previously made a coordinate-based meta-analysis with the ALE algorithm in order to find the consistent activations reported in the litterature. Therefore, we identified regions more commonly reported in the experiment regarding *needs* than in the expriment of *wantings*, vice versa. The present project is *kind of* a continuation of the meta-analysis. 
 
 ##### The puporses of this project are : 
-##### - Generating a machine learning model to classify the *needing* state and the *wanting* state based on studies included in the meta-analysis to train the model.
-##### - Verify if the features used by the model to make the classification is quite similar as the regions identified with the ALE algorithm. 
-##### - Verify if an machine learning model based on significant activation peak of different studies can generalize on the data of single subjects. 
+##### - Generating a machine learning model which will classify the *needing* state and the *wanting* state based on studies included in the meta-analysis to train the model.
+##### - Verify if the features used by the model to make the classification are quite similar as the regions identified in the meta-analysis.  
+##### - Verify if a machine learning model based on significant activation peaks of different studies can be generalize single subject's datas. 
 
-##### From a clinical point of view, applying a machine learning model which distinguish needing state vs wantings state to different clinical groups such as people living with substance disorders or eating disorder could be useful for noticing differentiation in the classification results. 
+##### From a clinical point of view, applying a machine learning model, which distinguish needing state vs wantings state, to different clinical groups, such as people living with substance disorders or eating disorder, could be useful, expecting differents results in the classification.
+
 
 ### Tools
 ##### - Python 
@@ -41,17 +42,17 @@
 
 ### Data 
 #### Activation peaks of included studies in the meta-analysis (training dataset): 
-##### The machine learning model will be train with the activation peaks of the included studies in the coordinate-based meta-analysis. All of the contrasts selected represents either the *need* state or the *wanting* state. 
+##### The machine learning model will be train with the activation peaks of the included studies of the coordinate-based meta-analysis. All of the contrasts selected represents either the *needs* or the *wantings*. 
 
-##### The *need* state was represented by activation during the perception of a food stimulus during a deprivation state (hunger). 
+##### The *needs* were represented by activation during the perception of a food stimulus during a deprivation state (hunger). 
 ##### - The activation ontrasts of interest were thus: 
 ##### - Perception of a food stimulus during a hunger state > perception of a stimulus during a satiety state.
 ##### - Perception of a food stimulus during a hunger state > perception of a non-food stimulus during a hunger state. 
 
-##### The desire state was represented by activation during the perception of a cue announcing a reward, which is described as the anticipation of a reward. The contrasts of interest were thus: 
+##### The *wantings* were represented by activation during the perception of a cue announcing a reward, which is described as the anticipation of a reward. The contrasts of interest were thus: 
 ##### - Perception of a cue announcing a reward (or a larger reward) > perception of a cue not announcing a reward (or a smaller reward).  
 
-#### Data from ALE maps (regions of interest): ??? 
+#### Datas from ALE maps (regions of interest): ??? 
 ##### In order to format the data, I will select regions of interest. Those regions will be identified trough the significant clusters of the ALE maps. The fact that the significant clusters are generated by the ALE algorithm with the different studies and then applied to each of these studies in order to reduce the dimensionality of the data may biase the methodology. Perhaps, we needed to find a way to reduce the dimensionality and to format the data to make it fit with a machine learning model, so we decided to go with this procedure, even if it reduce the validity of the model.
 
 #### Dataset from neurovault (test dataset):
@@ -64,7 +65,7 @@
 
 
 ### Deliverables 
-##### - Preprocessing pipeline for reducing the dimensionality of the activations peaks based on an atlas (ROI's from the ALE map) 
+##### - ? Preprocessing pipeline for reducing the dimensionality of the activation peaks based on an atlas (ROI's from the ALE map) 
 ##### - Machine learning classification model for the *needs* and the *wantings* 
 ##### - Brain map representating the visualisation of the features used by the model to make the prediction 
 
