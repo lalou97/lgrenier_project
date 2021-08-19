@@ -19,7 +19,7 @@
 
 
 ### Background
-##### Overconsumption is associate with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006), (Juvénal et al., 2021). Some stimuli are sought for their survival value (food, water,...), while others are sought for their reward value (money, interesting objects,...). While motivation towards the former seems to increase, or even be triggered, by a state of deprivation, motivation towards the latter seems to increase as a function of the previously learned value of the stimulus, corresponding to the association between this stimulus and a reward. However, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, for example some kind of food, or even some activities, it is possible to wonder what are the similarities and the differences between those two conditions at a neural level? 
+##### Overconsumption is associated with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006), (Juvénal et al., 2021). Some stimuli are sought for their survival value (food, water,...), while others are sought for their reward value (money, interesting objects,...). While motivation towards the former seems to increase, or even be triggered, by a state of deprivation, motivation towards the latter seems to increase as a function of the previously learned value of the stimulus, corresponding to the association between this stimulus and a reward. However, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, for example some kind of food, or even some activities, it is possible to wonder what are the similarities and the differences between those two conditions at a neural level? 
 
 ##### To answer this question, we previously made a coordinate-based meta-analysis with the ALE (Activation likelihood estimation) algorithm in order to find the consistent activations reported in the litterature for each of those conditions. Therefore, we identified regions more commonly reported in the experiments regarding *needs* than in the expriment of *wantings*, vice versa. 
 
@@ -30,10 +30,9 @@
 
 ##### The puposes of this project are : 
 ##### - Generating a machine learning model which will classify the *needings* and the *wantings* state based on studies included in the meta-analysis to train the model.
-##### - Verify if the features used by the model to make the classification are quite similar as the regions identified in the meta-analysis.  
+##### - Verify if the features used by the model to make the classification are similar as the regions identified in the meta-analysis.  
 ##### - Verify if a machine learning model based on significant activation peaks of different studies can be generalize single subject's datas. 
 
-##### From a clinical point of view, applying a machine learning model, which distinguish needing state vs wantings state, to different clinical groups, such as people living with substance disorders or eating disorder, could be useful, expecting differents results in the classification.
 
 
 ### Tools
@@ -47,32 +46,27 @@
 
 ### Data 
 #### Activation peaks of included studies in the meta-analysis (training dataset): 
-##### The machine learning model will be train with the activation peaks of the included studies of the coordinate-based meta-analysis. All of the contrasts selected represents either the *needs* or the *wantings*. 
+##### The machine learning model will be train with the activation peaks of the included studies of the coordinate-based meta-analysis. All of the contrasts selected represents either the *needs* or the *wantings*.
 
-##### The *needs* were represented by activation during the perception of a food stimulus during a deprivation state (hunger). 
-##### - The activation ontrasts of interest were thus: 
+### *needs* : 38 
+##### Contrasts of interest were meeting those criterions: 
 ##### - Perception of a food stimulus during a hunger state > perception of a stimulus during a satiety state.
 ##### - Perception of a food stimulus during a hunger state > perception of a non-food stimulus during a hunger state. 
 
-##### The *wantings* were represented by activation during the perception of a cue announcing a reward, which is described as the anticipation of a reward. The contrasts of interest were thus: 
+### *wantings* : 33 
+##### Contrasts of interest were meeting those criterions: 
 ##### - Perception of a cue announcing a reward (or a larger reward) > perception of a cue not announcing a reward (or a smaller reward).  
 
-#### Datas from ALE maps (regions of interest): ??? 
-##### In order to format the data, I will select regions of interest. Those regions will be identified trough the significant clusters of the ALE maps. The fact that the significant clusters are generated by the ALE algorithm with the different studies and then applied to each of these studies in order to reduce the dimensionality of the data may biase the methodology. Perhaps, we needed to find a way to reduce the dimensionality and to format the data to make it fit with a machine learning model, so we decided to go with this procedure, even if it reduce the validity of the model.
-
-#### Dataset from neurovault (test dataset):
-##### The test set will be compose of single subject data from a study found in neurovault: [Effect of hunger state on the brain responses to the food cues across the lifespan](https://neurovault.org/collections/3235/) 
-##### The selected contrasts are the same of those included in the meta-analysis: 
-###### Food vs Non-food viewing - Main effect hunger state (n.s.)
-###### High calorie versus low-calorie food viewing - main effect hunger state
-
-##### Unfortunatly, we haven't found a dataset for the *wanting* condition. Thus, we won't be able to test the model for both conditions which reduces its validity.   
-
+#### Datas from MA maps : maps generated with [nimare](https://nimare.readthedocs.io/en/latest/about.html)  
 
 ### Deliverables 
 ##### - ? Preprocessing pipeline for reducing the dimensionality of the activation peaks based on an atlas (ROI's from the ALE map) 
 ##### - Machine learning classification model for the *needs* and the *wantings* 
 ##### - Brain map representating the visualisation of the features used by the model to make the prediction 
+
+# Results 
+
+
 
 
 ### References 
