@@ -1,10 +1,10 @@
 # lgrenier_project
 
-### My name is Laurence, but let's call me Lalou! 
+##### My name is Laurence, but let's call me Lalou! 
 
-### I am a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy. Using the ALE algorithm, the main objective is to provide an overview of neural correlates underlying social hierarchy treatment. 
+##### I am a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy. Using the ALE algorithm, the main objective is to provide an overview of neural correlates underlying social hierarchy treatment. 
 
-### I really wish to contribute to science findings by adopting approaches that consider the current issues of reproductibility and social inclusion!   
+##### I really wish to contribute to science findings by adopting approaches that consider the current issues of reproductibility and social inclusion!   
 
 
 
@@ -15,7 +15,7 @@
 
 # Project Definition 
 
-## Can we identify wether the brain is during a *needing* state or during a *wanting* state ? 
+## Can we identify wether the brain is in a *needing* state or in a *wanting* state ? 
 
 
 ### Background
