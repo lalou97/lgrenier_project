@@ -35,6 +35,7 @@
 
 
 
+
 ### Tools
 ##### - Python 
 ##### - Jupyter notebooks 
@@ -42,6 +43,7 @@
 ##### - sklearn 
 ##### - github
 ##### - nimare 
+
 
 
 ### Data 
@@ -63,6 +65,8 @@
 ##### - ? Preprocessing pipeline for reducing the dimensionality of the activation peaks based on an atlas (ROI's from the ALE map) 
 ##### - Machine learning classification model for the *needs* and the *wantings* 
 ##### - Brain map representating the visualisation of the features used by the model to make the prediction 
+
+
 
 # Results 
 
