@@ -15,7 +15,7 @@
 
 # Project Definition 
 
-## Can we identify wether the brain is in a *needing* state or in a *wanting* state ? 
+## Are you *needing* or *wanting* something : what does the brain tell? 
 
 
 ### Background
