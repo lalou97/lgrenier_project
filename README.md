@@ -15,7 +15,7 @@
 
 # Project Definition 
 
-## Are you *needing* or *wanting* something : what does the brain tell? 
+## Are you *needing* or *wanting* something : what does the brain say? 
 
 
 ### Background
