@@ -1,10 +1,10 @@
 # lgrenier_project
 
-###My name is Laurence, but let's call me Lalou! 
+### My name is Laurence, but let's call me Lalou! 
 
-###I am a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy. Using the ALE algorithm, the main objective is to provide an overview of neural correlates underlying social hierarchy treatment. 
+### I am a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy. Using the ALE algorithm, the main objective is to provide an overview of neural correlates underlying social hierarchy treatment. 
 
-###I really wish to contribute to science findings by adopting approaches that consider the current issues of reproductibility and social inclusion!   
+### I really wish to contribute to science findings by adopting approaches that consider the current issues of reproductibility and social inclusion!   
 
 
 
@@ -15,16 +15,21 @@
 
 # Project Definition 
 
-## Can we identify wether the brain is *needing* something or *wanting* something with machine learning ?  
+## Can we identify wether the brain is during a *needing* state or during a *wanting* state ? 
 
 
 ### Background
-##### Overconsumption is associate with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006). It seems like a stimulus can be pursued for its survival value and the motivation toward it increases during a deprivation state of that stimulus, for example, food or water. However, a stimulus can also be pursued for its *previously learned reward value*, for example, money, makeup,... In this case, the motivation to obtain the stimulus is not necessarily related to a deprivation state. Beyond this distinction, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, it is possible to wonder what is the similarity and the differences between those two conditions at a neural level? 
+##### Overconsumption is associate with several environmental, social and individual problems (Lipschutz, 2001). One explanation suggested for overconsumption is that "we consume what we want belong what we need" (Stearns, 2006), (Juvénal et al., 2021). Some stimuli are sought for their survival value (food, water,...), while others are sought for their reward value (money, interesting objects,...). While motivation towards the former seems to increase, or even be triggered, by a state of deprivation, motivation towards the latter seems to increase as a function of the previously learned value of the stimulus, corresponding to the association between this stimulus and a reward. However, since a stimulus can be pursued for its *needing* value **and** for its *wanting* value, for example some kind of food, or even some activities, it is possible to wonder what are the similarities and the differences between those two conditions at a neural level? 
 
-##### To answer this question, we previously made a coordinate-based meta-analysis with the ALE algorithm in order to find the consistent activations reported in the litterature. Therefore, we identified regions more commonly reported in the experiments regarding *needs* than in the expriment of *wantings*, vice versa. The present project is *kind of* a continuation of the meta-analysis. 
+##### To answer this question, we previously made a coordinate-based meta-analysis with the ALE (Activation likelihood estimation) algorithm in order to find the consistent activations reported in the litterature for each of those conditions. Therefore, we identified regions more commonly reported in the experiments regarding *needs* than in the expriment of *wantings*, vice versa. 
 
-##### The puporses of this project are : 
-##### - Generating a machine learning model which will classify the *needing* state and the *wanting* state based on studies included in the meta-analysis to train the model.
+#### ALE
+##### The ALE approach is used to show the convergence between the regions reported in the litterature of a specified topic. For each of the selected studies, the coordinates of the significant voxels are taken (activation peaks). Then, the algorithm is making a gaussian matrice representing the spatial uncertainty, based on the sample of the corresponding study, around the activation peaks reported and thus making what is call a *MA map (main activation map)*.Therefore, each of the experiment has it own *MA map* where each voxels is associated with an activation probability (that increase in the closest to the peaks).Then, the union of the MA maps are taken and the algorithm is making permutations to identify which activations peaks are significantly reported across the experiments, thus representing the convergence of activations. 
+
+##### The goal of the present project is to build a machine learning model which will make the distinction between the studies which focused on the *needs* and the studies focused on the *wantings* based on the MA maps generated by ALE algorithm during the firts step.   
+
+##### The puposes of this project are : 
+##### - Generating a machine learning model which will classify the *needings* and the *wantings* state based on studies included in the meta-analysis to train the model.
 ##### - Verify if the features used by the model to make the classification are quite similar as the regions identified in the meta-analysis.  
 ##### - Verify if a machine learning model based on significant activation peaks of different studies can be generalize single subject's datas. 
 
