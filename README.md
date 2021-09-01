@@ -15,7 +15,7 @@
 
 # Project Definition 
 
-## Are you *needing* or *wanting* something : what does the brain say? 
+## Doing machine learning with study's neuroimaging results to classify need and desire states
 
 
 ### Background
