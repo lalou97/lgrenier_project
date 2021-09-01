@@ -15,7 +15,7 @@
 
 # Project Definition 
 
-## Doing machine learning with study's neuroimaging results to classify need and desire states
+## Doing machine learning with the results of neuroimaging studies to classify need and desire states
 
 
 ### Background
