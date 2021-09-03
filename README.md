@@ -81,7 +81,11 @@
 
 # Results 
 * * * 
-#### Description of the code 
+#### Summary
+![Brief description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Model_description.png)
+
+
+
 #### Example MA maps : maps generated with [nimare](https://nimare.readthedocs.io/en/latest/about.html)  
 #### Confusion matrices 
 #### Features importance 
