@@ -32,7 +32,7 @@
 * * * 
 ##### The ALE approach is used to show the convergence between the regions reported in the litterature of a specified topic. For each of the selected studies, the coordinates of the significant voxels are taken (activation peaks). Then, the algorithm is making a gaussian matrice representing the spatial uncertainty, based on the sample of the corresponding study, around the activation peaks reported and thus making what is call a *MA map (main activation map)*.Therefore, each of the experiment has it own *MA map* where each voxels is associated with an activation probability (that increase in the closest to the peaks).Then, the union of the MA maps are taken and the algorithm is making permutations to identify which activations peaks are significantly reported across the experiments, thus representing the convergence of activations. 
 
-
+[![ALE description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Step-by-step-overview-of-the-ALE-algorithm-From-an-entire-Statistical-Parametric-Map.png)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177) 
 
 ### Objectives 
 * * * 
@@ -103,3 +103,6 @@
 ###### [L. Charbonnier, F. van Meer, A.M. Johnstone, D. Crabtree, W. Buosi, Y. Manios, O. Androutsos, A. Giannopoulou, M.A. Viergever, P.A.M. Smeets, Effects of hunger state on the brain responses to food cues across the life span,NeuroImage,Volume 171,2018,Pages 246-255,ISSN 1053-8119,https://doi.org/10.1016/j.neuroimage.2018.01.012.](https://neurovault.org/collections/3235/)
 
 ###### [Simon B. Eickhoff, Danilo Bzdok, Angela R. Laird, Florian Kurth, Peter T. Fox, Activation likelihood estimation meta-analysis revisited, NeuroImage, Volume 59, Issue 3, 2012,Pages 2349-2361,ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2011.09.017.](https://www.sciencedirect.com/science/article/abs/pii/S1053811911010627?via%3Dihub)
+
+###### [Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI
+Acar F, Seurinck R, Eickhoff SB, Moerkerke B (2018) Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI. PLOS ONE 13(11): e0208177. https://doi.org/10.1371/journal.pone.0208177](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
