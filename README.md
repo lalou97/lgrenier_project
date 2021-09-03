@@ -80,8 +80,18 @@
 
 
 # Results 
-#### Datas from MA maps : maps generated with [nimare](https://nimare.readthedocs.io/en/latest/about.html)  
-#### 
+* * * 
+#### Description of the code 
+#### Example MA maps : maps generated with [nimare](https://nimare.readthedocs.io/en/latest/about.html)  
+#### Confusion matrices 
+#### Features importance 
+
+## Tools I learned during this project 
+* * * 
+
+# Conclusion 
+* * * 
+
 
 
 
