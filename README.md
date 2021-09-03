@@ -112,5 +112,4 @@
 
 ###### [Simon B. Eickhoff, Danilo Bzdok, Angela R. Laird, Florian Kurth, Peter T. Fox, Activation likelihood estimation meta-analysis revisited, NeuroImage, Volume 59, Issue 3, 2012,Pages 2349-2361,ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2011.09.017.](https://www.sciencedirect.com/science/article/abs/pii/S1053811911010627?via%3Dihub)
 
-###### [Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI
-Acar F, Seurinck R, Eickhoff SB, Moerkerke B (2018) Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI. PLOS ONE 13(11): e0208177. https://doi.org/10.1371/journal.pone.0208177](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
+###### [Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI, Acar F, Seurinck R, Eickhoff SB, Moerkerke B (2018) Assessing robustness against potential publication bias in Activation Likelihood Estimation (ALE) meta-analyses for fMRI. PLOS ONE 13(11): e0208177. https://doi.org/10.1371/journal.pone.0208177](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
