@@ -135,7 +135,7 @@
 ##### Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas. 
 
 ##### I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course! 
-![Thank you!](https://github.com/PSY6983-2021/lgrenier_project/tree/lalou97-patch-iss1-add-bio)
+![Thank you!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Capture%20d%E2%80%99e%CC%81cran%2C%20le%202021-09-03%20a%CC%80%2017.18.42.png)
 
 
 ### References 
