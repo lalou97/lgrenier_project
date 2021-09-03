@@ -32,7 +32,12 @@
 * * * 
 ##### The ALE approach is used to show the convergence between the regions reported in the litterature of a specified topic. For each of the selected studies, the coordinates of the significant voxels are taken (activation peaks). Then, the algorithm is making a gaussian matrice representing the spatial uncertainty, based on the sample of the corresponding study, around the activation peaks reported and thus making what is call a *MA map (main activation map)*.Therefore, each of the experiment has it own *MA map* where each voxels is associated with an activation probability (that increase in the closest to the peaks).Then, the union of the MA maps are taken and the algorithm is making permutations to identify which activations peaks are significantly reported across the experiments, thus representing the convergence of activations. 
 
+###### [Acar, F et al.,2018](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177)
+
+
 [![ALE description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Step-by-step-overview-of-the-ALE-algorithm-From-an-entire-Statistical-Parametric-Map.png)](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0208177) 
+
+
 
 ### Objectives 
 * * * 
