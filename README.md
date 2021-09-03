@@ -63,10 +63,7 @@
 ### Data 
 * * * 
 
-#### The dataset is composed of all the activation peaks of included studies in the meta-analysis. Here's all the coordinates of the sample in the brain.
-### - Green : Needs 
-### - Red : Wants 
-![coordinates gif!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/All_coordinates_Enregistrement%20d%E2%80%99e%CC%81cran%2C%20le%202021-09-02%20a%CC%80%2015.32.05%20(1).gif)
+#### The dataset is composed of all the activation peaks of included studies in the meta-analysis.
 
 ### *needs* : 38 studies
 ##### Contrasts of interest were meeting those criterions: 
@@ -77,7 +74,10 @@
 ##### Contrasts of interest were meeting those criterions: 
 ##### - Perception of a cue announcing a reward (or a larger reward) > perception of a cue not announcing a reward (or a smaller reward).  
 
-
+#### Here's all the coordinates of the sample in the brain.
+### - Green : Needs 
+### - Red : Wants 
+![coordinates gif!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/All_coordinates_Enregistrement%20d%E2%80%99e%CC%81cran%2C%20le%202021-09-02%20a%CC%80%2015.32.05%20(1).gif)
 
 
 ### Deliverables 
