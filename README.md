@@ -118,13 +118,19 @@
 
 #### Features importance
 ##### There you can see the most contributing features on the brain. The more the region is *yellow clear*, the more changes in the value of that voxel influence the decision of the model. 
+![Feature importance](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/feature_importance.gif) 
 
 
 ## Tools I learned during this project 
 * * * 
+###### - Python 
+###### - Packages to run machine learning with scikit-learn 
+###### - Packages ro run meta-analysis on python with nimare 
+###### - Tools to create great brain images and data visualization (matplotlib, seaborn...) 
 
 # Conclusion 
 * * * 
+##### In conclusion, 
 
 
 
