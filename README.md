@@ -2,7 +2,7 @@
 
 ### Personal background
 
-##### Hi! My name is Laurence! I've completed a bachelor's degree in cognitive neuroscience at Montreal University and I am currently a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy.
+##### My name is Laurence and I've completed a bachelor's degree in cognitive neuroscience at Montreal University. I am currently a master student in psychology at Montreal University. I am particularly interested in social neurosciences, thereby working at the NeSC (Neuroscience en contextes sociaux)lab. My master project is a coordinate based meta-analysis on social hierarchy.
 
 ##### I really wish to contribute to scientific findings by adopting approaches that consider the current issues of reproductibility and social inclusion in neuroscience! I've decided to do brainhack school in order to familiarize myself with coding and neuroimaging datas. 
 
@@ -82,7 +82,7 @@
 
 ### Deliverables 
 * * * 
-#### At the end of this project, I will have : 
+#### At the end of this project, I'll get : 
 ##### - Markdown README.md for the description of the present project 
 ##### - Jupyter notebook including the code, and the brain images  
 
@@ -93,26 +93,26 @@
 ![Brief description!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Model_description.png)
 
 ### Data preparation 
-#### - Transform all of the activation peak of each study into a MA map with [nimare](https://nimare.readthedocs.io/en/latest/about.html) . This end up with 71 MA map, because 71 studies had been included.
-#### - Apply a mask to select the voxel of the grey matter. I took the [MNI152 mask](https://nilearn.github.io/modules/generated/nilearn.datasets.load_mni152_brain_mask.html)
+#### - Transform all of the activation peaks of each study into a MA map with [nimare](https://nimare.readthedocs.io/en/latest/about.html).This ended up with 71 MA map, because 71 studies had been included.
+#### - Apply a mask to select the voxels of the grey matter. I used the [MNI152 mask](https://nilearn.github.io/modules/generated/nilearn.datasets.load_mni152_brain_mask.html)
 
-##### Here is an example of a MA maps with the mask.
+##### Here is an example of a MA maps with the mask:
 ![Ma map example!](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/MA%20map%20of%20the%20first%20study-need.png)
 
 
 ### Machine learning 
-##### I used a [linear support vector classification](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) for building the model. 
+##### I used a [linear support vector classification](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html) to build the model. 
 
-##### At first, the model classified all the data into *needs*. This problem occurred maybe because the value of most of the voxels is zero, or close to zero (as you can notice in the above MA map). By arranging the data in order to increase the gap between the null voxels and the non-zero ones, the classification has improved.  
+##### At first, the model classified all the data into *needs*. This problem occurred *maybe* because the value of most of the voxels is zero, or close to zero (as you can notice in the above MA map). By arranging the data in order to increase the gap between the null voxels and the non-zero ones, the classification has been improved.  
 
 ##### Finally, the model predicted the data with an accuracy of 83.3 ± 16.6 %. 
-#### There are the confusion matrices that shows the results
+#### There are the confusion matrices that shows the results:
 ![Confusion matrice](https://github.com/PSY6983-2021/lgrenier_project/blob/lalou97-patch-iss1-add-bio/images/Confusion%20Matrices.png) 
 
 #### Interpretation 
-##### Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the datas into *needs*, so we should be carefull with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants*, but it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset. 
+##### Even if the accuracy is quite good, because the dataset contains more *needs* than *wants*, the model have initially more than 50% of accuracy if it classifies all the datas into *needs*. Therefore, we should be careful with the interpretation of that accuracy value. This also explains why the model never classifies the *needs* into *wants* and why it is only making errors by classifying the *wants* into *needs*. A solution to overcome this problem would be to balance the weight of the different conditions according to the proportions in the dataset. 
 
-##### Moreover, I've split the data into training set and test set by myself with a proportion of 75% for the training set and 25% for the test set, and I've split again the training set into 60% training set and 40% validation set. Thus, the model is not optimal, because it is only learning with 45% of the initial dataset which is quit small when having 71 datas. A cross-validation method would have been more efficient in that case. 
+##### Moreover, I've split the data into training set and test set by myself with a proportion of 75% for the training set and 25% for the test set, and I've split again the training set into 60% training set and 40% validation set. Thus, the model is not optimal, because it is only learning with 45% of the initial dataset, which is quite small when having 71 datas. A cross-validation method would have been more efficient in that case. 
 
 
 
@@ -130,12 +130,16 @@
 
 # Conclusion 
 * * * 
-##### In conclusion, 
+##### In conclusion, the objectives of my project are mostly reach. Even if the model is not optimal and few modifications should be applied to improve it's validity, I've succeeded in building a machine learning model and in formatting the initial datas so the model can process them. 
 
+##### Finally, I've started this course without a significant background in coding and a little fear about it (I admit). One of my motivation to do brainhack school was to demystify this field in order to be ready to make great neuroscience! I'm glad I did it, learned python and many useful packages to analyse and play with neuroimaging datas. 
 
+##### I really want to thank BrainHack School team for their remarkable competence and exceptional support during all the course! 
+![Thank you!](https://github.com/PSY6983-2021/lgrenier_project/tree/lalou97-patch-iss1-add-bio)
 
 
 ### References 
+* * * 
 ###### [L. Charbonnier, F. van Meer, A.M. Johnstone, D. Crabtree, W. Buosi, Y. Manios, O. Androutsos, A. Giannopoulou, M.A. Viergever, P.A.M. Smeets, Effects of hunger state on the brain responses to food cues across the life span,NeuroImage,Volume 171,2018,Pages 246-255,ISSN 1053-8119,https://doi.org/10.1016/j.neuroimage.2018.01.012.](https://neurovault.org/collections/3235/)
 
 ###### [Simon B. Eickhoff, Danilo Bzdok, Angela R. Laird, Florian Kurth, Peter T. Fox, Activation likelihood estimation meta-analysis revisited, NeuroImage, Volume 59, Issue 3, 2012,Pages 2349-2361,ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2011.09.017.](https://www.sciencedirect.com/science/article/abs/pii/S1053811911010627?via%3Dihub)
